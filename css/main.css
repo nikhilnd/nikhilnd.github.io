@@ -1,0 +1,96 @@
+:root {
+  font-size: 22px;
+}
+
+header {
+  height: 100vh;
+  background-image: url(../img/website_background_16_9.jpg);
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  /*-webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;*/
+  color: white;
+  text-align: center;
+}
+
+.text {
+  margin-top: 200px;
+}
+
+.header {
+  font-family: 'Arvo', serif;
+  font-size: 2rem;
+  margin: 10px;
+}
+
+.kicker {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+}
+
+.icon {
+	/*font-size: 2em;*/
+	background-color: black;
+	padding: 5px;
+	margin: 0 auto;
+  color: white;
+}
+
+.photo-credit {
+  font-size: 0.5rem;
+  position: fixed;
+  bottom:0%;
+  width:100%;
+}
+
+a {
+  color: #F89433;
+  text-decoration: none;
+  font-weight: bold; 
+}
+
+a:hover {
+  /*color: #F5A75B*/
+  color: #F2AF6D;
+}
+/***********     Media queries     ***********/
+
+@media(max-width: 800px) {
+  :root {
+    font-size: 18px;
+  }
+
+  .header {
+    margin: 18px
+  }
+}
+
+@media(max-width: 615px) {
+  :root {
+    font-size: 16px;
+  }
+
+  .header {
+    margin: 20px;
+  }
+}
+
+@media(max-width: 510px) {
+  header {
+    background-image: url(../img/background_image_mobile.jpg);
+  }
+}

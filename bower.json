@@ -1,0 +1,27 @@
+{
+  "name": "porfolio-landing",
+  "authors": [
+    "Nikhil Deorkar <nikhil.deorkar@gmail.com>"
+  ],
+  "description": "A landing page style portfolio.",
+  "main": "index.html",
+  "keywords": [
+    "portfolio",
+    "landing-page"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#^5.0.0",
+    "font-awesome": "^4.7.0",
+    "animate.css": "^3.5.2",
+    "jquery": "^3.1.1"
+  }
+}
