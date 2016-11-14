@@ -5,7 +5,9 @@
 header {
   height: 100vh;
   background-image: url(../img/website_background_16_9.jpg);
-  background-size: cover;
+  /*background-size: cover;*/
+  -webkit-background-size: calc(100% + 50px);
+  background-size: calc(100% + 50px);
   background-position: center;
   display: -webkit-box;
   display: -webkit-flex;
@@ -60,7 +62,7 @@ header {
 a {
   color: #F89433;
   text-decoration: none;
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 a:hover {
