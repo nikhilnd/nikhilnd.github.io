@@ -4,9 +4,10 @@
 
 header {
   height: 100vh;
-  background-image: url(../img/website_background_16_9.jpg);
+  /*background-image: url(../img/website_background_16_9.jpg);*/
+  background-image: url(../img/website_background_16_9_yellow.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 110% 110%;
   background-position: center;
   display: -webkit-box;
   display: -webkit-flex;
@@ -19,6 +20,7 @@ header {
   flex-direction: column;
   color: white;
   text-align: center;
+  overflow: hidden;
 }
 
 .content {
@@ -64,8 +66,8 @@ header {
 }
 
 span {
-  color: #ff8c00;
-  //color: white; 
+  /*color: #ff8c00;*/
+  color: white;
 }
 
 /*
@@ -117,6 +119,7 @@ a:hover {
 
 @media(max-width: 510px) {
   header {
-    background-image: url(../img/background_image_mobile.jpg);
+    /*background-image: url(../img/background_image_mobile.jpg);*/
+    background-image: url(../img/background_image_mobile_yellow.jpg);
   }
 }
