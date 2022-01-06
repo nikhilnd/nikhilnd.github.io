@@ -7,6 +7,14 @@ $(function() {
     $('.github').removeClass('animated tada');
   });
 
+  $('.linkedin').mouseenter(function() {
+    $('.linkedin').addClass('animated tada');
+  });
+
+  $('.linkedin').mouseleave(function() {
+    $('.linkedin').removeClass('animated tada');
+  });
+
   $('.email').mouseenter(function() {
     $('.email').addClass('animated tada');
   });

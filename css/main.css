@@ -39,9 +39,10 @@ header {
 .header {
   font-family: 'Arvo', serif;
   font-size: 2rem;
-  padding: 5px;
+  /* padding: 5px;
   height: 20px;
-  margin: 30px;
+  margin: 30px; */
+  margin: 0 0 1vh 0; 
   color: white;
   text-align: center;
 }
